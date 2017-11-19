@@ -7,8 +7,8 @@ public static void main(String[] args) {
 
     System.out.println("Hello World, I'am MEEN");
     System.out.println("Kamonrat Hemtanon");
-    System.out.println("Information System");
-    System.out.println("MT: RMUTSV");
+    System.out.println("Information System, MT:RMUTSV");
+
 
 
 
