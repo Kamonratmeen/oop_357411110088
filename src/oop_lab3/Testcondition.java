@@ -12,7 +12,7 @@ public class Testcondition {
             System.out.println("x less than y");
         } else
             System.out.println("x less than y");
-    }
+
 
 //        If-else-if
         if (x < 10) {
