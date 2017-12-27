@@ -19,8 +19,5 @@ public class TestWhileLoop {
           } while (j <=10);
 
 
-
-
-
     }
 }//class

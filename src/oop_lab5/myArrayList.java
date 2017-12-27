@@ -10,7 +10,7 @@ public class myArrayList {
         list.add("JIM");
         list.add("ANNY");
         System.out.println(list);
-        list.add(2,2017)
+        list.add(2,2017);
         System.out.println(list);
         list.remove(1);
         System.out.println(list);

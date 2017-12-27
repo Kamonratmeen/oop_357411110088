@@ -17,17 +17,6 @@ public class TestForLoop {
                 System.out.println(i+" ");
         }
 
-
-
-
-
-
-
-
     }//main
-
-
-
-
 
 }//class
