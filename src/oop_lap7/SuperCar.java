@@ -2,9 +2,9 @@ package oop_lap7;
 //Talking ?
 //1.car brand
 //2.car color
-//3.car engine size
-//4.max speed
-//5.country of origin
+//3.car engine size ขนาดเครื่องยนต์ของรถ
+//4.max speed ความเร็วสูงสุด
+//5.country of origin ประเทศต้นทาง
 
 
 public class SuperCar {
@@ -17,7 +17,7 @@ public class SuperCar {
 //Default constructor
 public SuperCar(){}
 //create constructor by owner
-public Student(String b,String c,String e,String m,String co){
+public SuperCar(String b,String c,String e,String m,String co){
     //assign data to class properties
     this.carbrand = b;
     this.carcolor = c;
