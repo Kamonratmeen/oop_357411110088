@@ -12,7 +12,7 @@ public class StringBuf {
         System.out.println(buffer.length());
         buffer.replace(0,5,"oop");
         System.out.println(buffer);
-        System.out.println(buffer.replace());
+       // System.out.println(buffer.replace());
         buffer.delete(0, 3);
         System.out.println(buffer);
 

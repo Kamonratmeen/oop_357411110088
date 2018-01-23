@@ -16,7 +16,7 @@ public class StringCompare {
         // -,+,0
         if (str1.compareTo(str2)== 0)
             System.out.println("true");
-        else if (str1.compareTo(str2)>= 1);
+        else if (str1.compareTo(str2)>= 1)
         System.out.println("str 2 more than str1");
         else
             System.out.println("sta1 less than str2");
