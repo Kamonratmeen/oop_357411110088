@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875e8fd6-1861-4db5-b8ed-4111eb1957e6" name="Default" comment="Dog extends Pet">
+    <list default="true" id="875e8fd6-1861-4db5-b8ed-4111eb1957e6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop_lab8/Dog.java" afterPath="$PROJECT_DIR$/src/oop_lab8/Dog.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,7 +150,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/oop_lab8/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -168,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/oop_lab8/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="28" />
               <folding>
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
@@ -754,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517284930209</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="class Dog extends Pet">
+      <created>1517285063586</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1517285063586</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -793,7 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Grade Calculator" />
     <MESSAGE value="TestSwitchCase" />
     <MESSAGE value="Test for Loop" />
     <MESSAGE value="Test While Loop" />
@@ -818,7 +823,8 @@
     <MESSAGE value="Class and Object :mySuperCarApp" />
     <MESSAGE value="Employee extends Person" />
     <MESSAGE value=" Pet Class" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Pet Class" />
+    <MESSAGE value="class Dog extends Pet" />
+    <option name="LAST_COMMIT_MESSAGE" value="class Dog extends Pet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1251,21 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop_lab8/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop_lab8/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1277,6 +1268,21 @@
             <element signature="e#555#556#0" expanded="true" />
             <element signature="e#597#598#0" expanded="true" />
             <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop_lab8/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
