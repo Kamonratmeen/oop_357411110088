@@ -14,6 +14,11 @@ public class Dog extends Pet {
     }
 
     @Override
+    public void makeNoies() {
+
+    }
+
+    @Override
     public String toString() {
         return "Dog{" +
                 "breed='" + breed + '\'' +
