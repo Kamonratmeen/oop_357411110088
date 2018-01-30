@@ -1,32 +1,40 @@
 package oop_lap7;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class mySuperCar {
     public static void main(String[] args) {
-
-
-
-        SuperCar superCar2 = new SuperCar();
-        superCar2 = inputData(superCar2);
-        System.out.println(superCar2.toString());
-
-    }//main
-
-    private static SuperCar inputData(SuperCar  s) {
+        ArrayList<SuperCar> myCarList = new ArrayList<SuperCar>();
+        myCarList = inputData(myCarList);
+        System.out.println("== Show Super Car Info ==");
+        for (int i=0;i<myCarList.size();i++){
+            System.out.println(myCarList.get(i).getSuperCarInfo());
+        }
+    }
+    private static ArrayList inputData(ArrayList myCarList) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your SuperCar data: ");
-        System.out.print("brand: ");
-        s.setCarbrand(scanner.nextLine());
-        System.out.print("color: ");
-        s.setCarcolor(scanner.nextLine());
-        System.out.print("size: ");
-        s.setCarenginesize(scanner.nextLine());
-        System.out.print("speed: ");
-        s.setMaxspeed(scanner.nextLine());
-        System.out.print("country: ");
-        s.setCountryoforigin(scanner.nextLine());
-        return s;
+        System.out.println("Please insert super car info: ");
+        for (int i =0;i<10;i++){
+            System.out.println("Super car: "+(i+1));
+            System.out.print("Brand: ");
+            String b = scanner.nextLine();
+            System.out.print("Color: ");
+            String c = scanner.nextLine();
+            System.out.print("Engine Size: ");
+            String e = scanner.nextLine();
+            System.out.print("maxspeed: ");
+            String m = scanner.nextLine();
+            System.out.print("origin: ");
+            String o = scanner.nextLine();
+
+            SuperCar car  = new SuperCar(b,c,e,m,o);
+            myCarList.add(car);
+        }
+        return myCarList;
+
+
+
 
     }//main
 
@@ -34,3 +42,5 @@ public class mySuperCar {
 
 
 }//class
+
+
