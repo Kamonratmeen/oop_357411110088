@@ -6,7 +6,13 @@ public class PersonInfo {
         System.out.println(student.toString());
 
         System.out.println(student.getName());
+
+
+        Employee employee = new Employee("222222222222","Administrative Manager","20000",20,"123456","22222","12000");
+        System.out.println(employee.toString());
+
     }
+
 
 
 
