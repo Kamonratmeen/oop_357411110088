@@ -126,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Job.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Job.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/oop_lab9/Job.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -145,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mypersonApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mypersonApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/oop_lab9/mypersonApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -785,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517890022369</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Job">
+      <created>1517890114888</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1517890114888</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -824,7 +831,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OverLoadMethod" />
     <MESSAGE value="StudentData" />
     <MESSAGE value="TestArrayID" />
     <MESSAGE value="InputDataToArray" />
@@ -849,7 +855,8 @@
     <MESSAGE value="mrCarApp" />
     <MESSAGE value="personID" />
     <MESSAGE value="Address" />
-    <option name="LAST_COMMIT_MESSAGE" value="Address" />
+    <MESSAGE value="Job" />
+    <option name="LAST_COMMIT_MESSAGE" value="Job" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1309,14 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop_lab9/mypersonApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop_lab9/Job.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1331,6 +1330,14 @@
             <element signature="e#732#733#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop_lab9/mypersonApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
