@@ -1,34 +1,31 @@
 package oop_lab9;
 
 public class Address {
-    private String homeNO;
+    private String homeNo;
     private String province;
     private String postCode;
 
-//constructor
-    public Address(String homeNO, String province, String postCode) {
-        this.homeNO = homeNO;
+    public Address(String homeNo, String province, String postCode) {
+        this.homeNo = homeNo;
         this.province = province;
         this.postCode = postCode;
     }
 
-    //toString
     @Override
     public String toString() {
         return "Address{" +
-                "homeNO='" + homeNO + '\'' +
+                "homeNo='" + homeNo + '\'' +
                 ", province='" + province + '\'' +
                 ", postCode='" + postCode + '\'' +
                 '}';
     }
 
-    //Getter and getter
-    public String getHomeNO() {
-        return homeNO;
+    public String getHomeNo() {
+        return homeNo;
     }
 
-    public void setHomeNO(String homeNO) {
-        this.homeNO = homeNO;
+    public void setHomeNo(String homeNo) {
+        this.homeNo = homeNo;
     }
 
     public String getProvince() {

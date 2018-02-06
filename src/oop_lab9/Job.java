@@ -2,29 +2,21 @@ package oop_lab9;
 
 public class Job {
     private String position;
-    private String salary;
+    private double salary;
 
-
-
-    }
-    //constructor
-    public Job(String position, String salary) {
+    public Job(String position, double salary) {
         this.position = position;
         this.salary = salary;
     }
-
-    //toString
-
 
     @Override
     public String toString() {
         return "Job{" +
                 "position='" + position + '\'' +
-                ", salary='" + salary + '\'' +
+                ", salary=" + salary +
                 '}';
     }
 
-    //Getter and getter
     public String getPosition() {
         return position;
     }
@@ -33,15 +25,13 @@ public class Job {
         this.position = position;
     }
 
-    public String getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
-
-
 }//class
 
 

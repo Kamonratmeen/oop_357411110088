@@ -3,32 +3,28 @@ package oop_lab9;
 public class personID {
     private String personID;
     private String name;
-    private String Address;
-    private String Job;
+    private Address address;
+    private Job job;
 
-    public personID(String personID, String name, String address, String job) {
+    public Person(String personID, String name, Address address, Job job) {
         this.personID = personID;
         this.name = name;
-        this.Address = address;
-        this.Job = job;
+        this.address = address;
+        this.job = job;
     }
 
     @Override
     public String toString() {
-        return "personID{" +
+        return "Person{" +
                 "personID='" + personID + '\'' +
                 ", name='" + name + '\'' +
-                ", Address='" + Address + '\'' +
-                ", Job='" + Job + '\'' +
+                ", address=" + address +
+                ", job=" + job +
                 '}';
     }
 
     public String getPersonID() {
         return personID;
-    }
-
-    public void setPersonID(String personID) {
-        this.personID = personID;
     }
 
     public String getName() {
@@ -39,19 +35,19 @@ public class personID {
         this.name = name;
     }
 
-    public String getAddress() {
-        return Address;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setAddress(String address) {
-        Address = address;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
-    public String getJob() {
-        return Job;
+    public Job getJob() {
+        return job;
     }
 
-    public void setJob(String job) {
-        Job = job;
+    public void setJob(Job job) {
+        this.job = job;
     }
 }//class
